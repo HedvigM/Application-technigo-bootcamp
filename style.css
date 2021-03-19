@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+  background-color: #baa5a5;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 60em;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Amatic SC', cursive;
+  font-size: 9em;
+  margin: 5px auto;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  margin: 5px auto;
+}
+
+.definition {
+  border: solid #000000 3px;
+  padding: 5px;
+  margin: 7px;
+  background-color: #8b6e6e;
+}
+
+p { 
+  font-size: 1.5em; 
+  margin: 1em;
+}
+
+a {
+  color: #baa5a5;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+a:link, a:visited, a:focus {
+  background: #744a4a;
+}
+
+a:hover {
+  background-color: #365865;
+  border-radius: 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links div {
+  margin: 14px 7px;
+}
+
+.links div a {
+  border: solid #000000;
+  padding: 5px;
+}
